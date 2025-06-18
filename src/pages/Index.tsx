@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -49,8 +48,12 @@ const Index = () => {
           <div className="text-center mb-16">
             <div className="flex items-center justify-center mb-6">
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mb-4">
-                  <Sparkles className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 rounded-2xl overflow-hidden flex items-center justify-center mb-4">
+                  <img 
+                    src="/lovable-uploads/8a9fa116-f435-4628-81b9-495b1ec37f2a.png" 
+                    alt="石榴当当 Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div className="absolute -top-2 -right-2 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
                   <span className="text-white text-xs font-bold">AI</span>
